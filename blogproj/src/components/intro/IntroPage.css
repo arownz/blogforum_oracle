@@ -1,0 +1,643 @@
+.INTRO-PAGE {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .INTRO-PAGE .div {
+    background-color: #ffffff;
+    height: 1351px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .INTRO-PAGE .overlap {
+    height: 55px;
+    left: 112px;
+    position: absolute;
+    top: 37px;
+    width: 578px;
+  }
+  
+  .INTRO-PAGE .text-wrapper {
+    color: #0b950f;
+    font-family: "Labrada-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 166px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-2 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 155px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    width: 166px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-3 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 272px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    width: 166px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-4 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 412px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    width: 166px;
+  }
+  
+  .INTRO-PAGE .image {
+    height: 103px;
+    left: -706px;
+    object-fit: cover;
+    position: absolute;
+    top: -664px;
+    width: 125px;
+  }
+  
+  .INTRO-PAGE .group {
+    height: 50px;
+    left: 1247px;
+    position: absolute;
+    top: 39px;
+    width: 189px;
+  }
+  
+  .INTRO-PAGE .overlap-group {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 99.98%);
+    border: 3px solid;
+    border-color: #0b950f;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 50px;
+    position: relative;
+    width: 187px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+    width: 168px;
+  }
+  
+  .INTRO-PAGE .overlap-wrapper {
+    height: 50px;
+    left: 524px;
+    position: absolute;
+    top: 134px;
+    width: 354px;
+  }
+  
+  .INTRO-PAGE .div-wrapper {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 99.98%);
+    border: 3px solid;
+    border-color: #0b950f;
+    border-radius: 50px;
+    height: 50px;
+    position: relative;
+    width: 352px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    white-space: nowrap;
+    width: 317px;
+  }
+  
+  .INTRO-PAGE .rectangle {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 99.98%);
+    border: 3px solid;
+    border-color: #0b950f;
+    border-radius: 50px;
+    height: 50px;
+    left: 1129px;
+    position: absolute;
+    top: 39px;
+    width: 105px;
+  }
+  
+  .INTRO-PAGE .overlap-2 {
+    height: 44px;
+    left: -275px;
+    position: absolute;
+    top: 173px;
+    width: 568px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 351px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .INTRO-PAGE .in-tutorial-weeks {
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 380px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 1109px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 294px;
+  }
+  
+  .INTRO-PAGE .p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 76px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 230px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 437px;
+    width: 337px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 454px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 680px;
+    width: 337px;
+  }
+  
+  .INTRO-PAGE .img {
+    height: 23px;
+    left: -275px;
+    position: absolute;
+    top: -38px;
+    width: 380px;
+  }
+  
+  .INTRO-PAGE .in-tutorial-days {
+    height: 23px;
+    left: -275px;
+    position: absolute;
+    top: -276px;
+    width: 333px;
+  }
+  
+  .INTRO-PAGE .overlap-3 {
+    border-radius: 50px;
+    height: 43px;
+    left: 443px;
+    position: absolute;
+    top: 335px;
+    width: 92px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    width: 69px;
+  }
+  
+  .INTRO-PAGE .rectangle-2 {
+    border: 3px solid;
+    border-color: #0b950f;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 92px;
+  }
+  
+  .INTRO-PAGE .overlap-4 {
+    height: 43px;
+    left: 444px;
+    position: absolute;
+    top: 571px;
+    width: 111px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-12 {
+    color: #1e1e1e;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    width: 100px;
+  }
+  
+  .INTRO-PAGE .rectangle-3 {
+    border: 3px solid;
+    border-color: #0b950f;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 106px;
+  }
+  
+  .INTRO-PAGE .overlap-5 {
+    height: 43px;
+    left: 555px;
+    position: absolute;
+    top: 335px;
+    width: 120px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-13 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    width: 113px;
+  }
+  
+  .INTRO-PAGE .rectangle-4 {
+    border: 3px solid;
+    border-color: #0b950f;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 113px;
+  }
+  
+  .INTRO-PAGE .overlap-6 {
+    height: 43px;
+    left: 568px;
+    position: absolute;
+    top: 571px;
+    width: 122px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-14 {
+    color: #1e1e1e;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    width: 113px;
+  }
+  
+  .INTRO-PAGE .dark-mode {
+    height: 40px;
+    left: 439px;
+    position: absolute;
+    top: -632px;
+    width: 45px;
+  }
+  
+  .INTRO-PAGE .image-2 {
+    height: 208px;
+    left: -644px;
+    position: absolute;
+    top: -340px;
+    width: 332px;
+  }
+  
+  .INTRO-PAGE .overlap-group-wrapper {
+    height: 156px;
+    left: -14px;
+    position: absolute;
+    top: 1199px;
+    width: 1466px;
+  }
+  
+  .INTRO-PAGE .overlap-7 {
+    height: 156px;
+    position: relative;
+    width: 1454px;
+  }
+  
+  .INTRO-PAGE .rectangle-5 {
+    background-color: #b0e6b0;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    height: 152px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .INTRO-PAGE .image-3 {
+    height: 103px;
+    left: 1271px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 125px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-15 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    white-space: nowrap;
+    width: 261px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-16 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 72px;
+    width: 210px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-17 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 174px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 73px;
+    width: 210px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-18 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 77px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 73px;
+    width: 210px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-19 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 296px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 72px;
+    width: 210px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-20 {
+    color: #000000;
+    font-family: "Labrada-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 1228px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 210px;
+  }
+  
+  .INTRO-PAGE .rectangle-6 {
+    border: 3px solid;
+    border-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 207px;
+    left: 76px;
+    position: absolute;
+    top: 335px;
+    width: 329px;
+  }
+  
+  .INTRO-PAGE .overlap-8 {
+    border: 3px solid;
+    border-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 515px;
+    left: 1063px;
+    position: absolute;
+    top: 335px;
+    width: 342px;
+  }
+  
+  .INTRO-PAGE .rectangle-7 {
+    background-color: #b0e6b0;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 50px;
+    height: 360px;
+    left: -3px;
+    position: absolute;
+    top: 152px;
+    width: 342px;
+  }
+  
+  .INTRO-PAGE .put-your-creations {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 249px;
+    width: 307px;
+  }
+  
+  .INTRO-PAGE .image-4 {
+    height: 189px;
+    left: -644px;
+    object-fit: cover;
+    position: absolute;
+    top: -104px;
+    width: 330px;
+  }
+  
+  .INTRO-PAGE .rectangle-8 {
+    border: 3px solid;
+    border-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 189px;
+    left: 77px;
+    position: absolute;
+    top: 571px;
+    width: 331px;
+  }
+  
+  .INTRO-PAGE .text-wrapper-21 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 454px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 898px;
+    width: 337px;
+  }
+  
+  .INTRO-PAGE .image-5 {
+    height: 189px;
+    left: -644px;
+    object-fit: cover;
+    position: absolute;
+    top: 114px;
+    width: 330px;
+  }
+  
+  .INTRO-PAGE .rectangle-9 {
+    border: 3px solid;
+    border-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 189px;
+    left: 77px;
+    position: absolute;
+    top: 789px;
+    width: 331px;
+  }
+  
+  .INTRO-PAGE .search {
+    height: 32px;
+    left: 102px;
+    position: absolute;
+    top: -532px;
+    width: 32px;
+  }
+  
+  .INTRO-PAGE .image-6 {
+    height: 219px;
+    left: 343px;
+    object-fit: cover;
+    position: absolute;
+    top: -340px;
+    width: 342px;
+  }

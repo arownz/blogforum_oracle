@@ -1,0 +1,197 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #0b950f;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .dark-mode-toggle img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sign-up {
+    padding: 0.5rem 1rem;
+    border: 2px solid #0b950f;
+    border-radius: 25px;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Search Section */
+  .search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem;
+    border: 2px solid #0b950f;
+    border-radius: 25px;
+    width: 300px;
+  }
+  
+  .search-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Content */
+  .content {
+    padding: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .section-description {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .blog-card {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .blog-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .blog-content {
+    flex: 1;
+  }
+  
+  .blog-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .blog-meta {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tag {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #0b950f;
+    border-radius: 15px;
+    font-size: 0.8rem;
+  }
+  
+  .meta-info {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  /* Related Posts */
+  .related-posts {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .related-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .related-content {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .related-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .related-description {
+    font-size: 0.9rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #b0e6b0;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .footer-link {
+    font-size: 0.9rem;
+    text-decoration: underline;
+  }
+  
+  .footer-copy {
+    font-size: 0.8rem;
+    color: #555;
+  }
